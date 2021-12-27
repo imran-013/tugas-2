@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 16px/28px arial, sans-serif;
+    background-image: url(backroud.png);
+    background-color: rgb(250, 246, 246);
+    color: #333;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header{
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+.judul{
+    color: rgb(98, 221, 215);
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.header li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 5px;   
+}
+
+.header a:hover{
+    background-color: lightblue;
+    color: white;
+}
+
+.gambar{
+    height: 400px;
+    background-image: url(komputer.jpeg);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid lightsalmon;
+
+}
+.main{
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.main h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main p{
+    text-align: justify;
+}
+
+.sidebar img{
+   padding-top: 3px;
+   padding-right: 3px;
+    float: left;
+}
+.sidebar p{
+    padding-right: 20px;
+    font: 16px arial;
+    text-align: justify;
+    
+}
+.sidebar h3{
+    padding-top: 20px;
+}
+
+.footer{
+ background-color: black;
+ color: white;
+ text-align: center;
+ font-size: 12px;
+}
+
+/* clear fix */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ .cf {
+     *zoom: 1;
+ }
